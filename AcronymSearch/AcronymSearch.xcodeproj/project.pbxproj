@@ -14,6 +14,7 @@
 		4AD0A8031C5DCDE000317ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD0A8011C5DCDE000317ABB /* LaunchScreen.storyboard */; };
 		4AD0A8101C5DD79800317ABB /* Acronym.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD0A80F1C5DD79800317ABB /* Acronym.m */; };
 		4AD0A8131C5EA79400317ABB /* AcronymSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD0A8121C5EA79400317ABB /* AcronymSearchViewController.m */; };
+		4AD0A8181C5F2CA400317ABB /* AcronymSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD0A8171C5F2CA400317ABB /* AcronymSearchService.m */; };
 		D1A82EFF57DBAE2AEA223E27 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA36B099916994A088247092 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,8 @@
 		4AD0A80F1C5DD79800317ABB /* Acronym.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Acronym.m; sourceTree = "<group>"; };
 		4AD0A8111C5EA79400317ABB /* AcronymSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcronymSearchViewController.h; sourceTree = "<group>"; };
 		4AD0A8121C5EA79400317ABB /* AcronymSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcronymSearchViewController.m; sourceTree = "<group>"; };
+		4AD0A8161C5F2CA400317ABB /* AcronymSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcronymSearchService.h; sourceTree = "<group>"; };
+		4AD0A8171C5F2CA400317ABB /* AcronymSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcronymSearchService.m; sourceTree = "<group>"; };
 		DA36B099916994A088247092 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7C0F4CBE8D423EEB6A69C6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +73,7 @@
 			children = (
 				4AD0A80D1C5DD77D00317ABB /* Model */,
 				4AD0A8141C5F1F1700317ABB /* Controller */,
+				4AD0A8151C5F224B00317ABB /* Service */,
 				4AD0A7F61C5DCDE000317ABB /* AppDelegate.h */,
 				4AD0A7F71C5DCDE000317ABB /* AppDelegate.m */,
 				4AD0A7FC1C5DCDE000317ABB /* Main.storyboard */,
@@ -105,6 +109,15 @@
 				4AD0A8121C5EA79400317ABB /* AcronymSearchViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		4AD0A8151C5F224B00317ABB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4AD0A8161C5F2CA400317ABB /* AcronymSearchService.h */,
+				4AD0A8171C5F2CA400317ABB /* AcronymSearchService.m */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 		5815400E42918600F5C1C8A0 /* Pods */ = {
@@ -245,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AD0A8181C5F2CA400317ABB /* AcronymSearchService.m in Sources */,
 				4AD0A8101C5DD79800317ABB /* Acronym.m in Sources */,
 				4AD0A7F81C5DCDE000317ABB /* AppDelegate.m in Sources */,
 				4AD0A7F51C5DCDE000317ABB /* main.m in Sources */,

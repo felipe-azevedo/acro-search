@@ -35,7 +35,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="scaleToFill" placeholder="Search here" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="80p-HC-f2Y">
+                            <searchBar contentMode="scaleToFill" placeholder="Acronym to search" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="80p-HC-f2Y">
                                 <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" returnKeyType="search"/>
                                 <connections>
